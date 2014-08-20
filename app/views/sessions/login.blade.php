@@ -15,18 +15,18 @@
 												<div class="form-group">
 														<label for="email" class="col-sm-3 col-xs-12 control-label">Email address</label>
 														<div class="col-sm-9 col-xs-12">
-																{{ Form::text('email', null, array('class' => 'form-control  required email', 'placeholder' => trans('users.email'))) }}
+																{{ Form::text('email', null, array('class' => 'form-control  required email', 'placeholder' => 'Email')) }}
 														</div>
 												</div>
 												<br><br>
 												<div class="form-group">
 														<label for="password" class="col-sm-3 col-xs-12 control-label">Password</label>
 														<div class="col-sm-9 col-xs-12">
-																{{ Form::password('password', array('class' => 'form-control required', 'placeholder' => trans('users.password'))) }}
+																{{ Form::password('password', array('class' => 'form-control required', 'placeholder' => 'Password')) }}
 														</div>
 												</div>
 												<br><br>
-												{{ Form::submit(trans('pages.login'), array('class' => 'btn featured btn-block'))}}
+												{{ Form::submit('Login', array('class' => 'btn featured btn-block'))}}
 												{{ Form::close() }}
 
 								</div>
