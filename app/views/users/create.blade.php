@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <br><br>
-                        {{ Form::submit('Register', array('class' => 'btn btn-primary')) }}
+                        {{ Form::submit('Register', array('class' => 'btn featured btn-block')) }}
                         {{ Form::close() }}
 
                 </div>
