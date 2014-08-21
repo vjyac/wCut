@@ -81,8 +81,11 @@ class UserController extends BaseController {
 	 */
 	public function store()
 	{
+
+
 		// Form Processing
         $result = $this->registerForm->save( Input::all() );
+
 
         if( $result['success'] )
         {
@@ -94,7 +97,7 @@ class UserController extends BaseController {
 
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
 
         } else {
             Session::flash('error', $result['message']);
@@ -233,11 +236,11 @@ class UserController extends BaseController {
         {
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
 
         } else {
             Session::flash('error', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
         }
 	}
 
@@ -260,7 +263,7 @@ class UserController extends BaseController {
 
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
         }
         else
         {
@@ -290,7 +293,7 @@ class UserController extends BaseController {
 
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
         }
         else
         {
@@ -327,11 +330,11 @@ class UserController extends BaseController {
 
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
 
         } else {
             Session::flash('error', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
         }
 	}
 
@@ -359,7 +362,7 @@ class UserController extends BaseController {
         {
             // Success!
             Session::flash('success', $result['message']);
-            return Redirect::route('home');
+            return Redirect::route('wcuts.index');
         }
         else
         {

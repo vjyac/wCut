@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<h2>{{trans('users.newpassword_lbl')}}</h2>
+		<h2>New Password</h2>
 
 		<p><blockquote>{{{ $newPassword }}}</blockquote></p>
-		<p>{{trans('pages.thank_you')}}, <br />
-		 	{{trans('pages.the_admin_team')}}</p>
+		<p>Thank you, <br />
+		 	wCut.co</p>
 	</body>
 </html>

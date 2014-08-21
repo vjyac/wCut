@@ -53,7 +53,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'toledoaldoadrian@gmail.com', 'name' => 'Toledo Aldo Adrian'),
+	'from' => array('address' => 'keloxers@gmail.com', 'name' => 'Miguel Mendez'),
 
 	/*
 	|--------------------------------------------------------------------------
