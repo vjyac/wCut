@@ -79,8 +79,7 @@
                     <div class="logo-wrapper">
                         <img src="/assets/img/logo-white.png" alt="logo" />
                     </div>
-                    <p>No registration required, but you need to check mark "Log stats for this URL" when you create it. To bring up the stats page just add a tilde sign to the end of the URL and submit it in your browser's address bar . Follow the format of this example: http://wcut.co/link_demo~
-Stats are logged by default for registered users. See Tools for more details about stats pages and link metrics.?</p>
+                    <p>No registration is required, but if you want to avoid the capcha should do. The links are permanent, and is totally free.</p>
                     <p><strong>Miguel Mendez, Founder</strong>.</p>
                 </div>
                 <div class="col-sm-5 social-wrap">
