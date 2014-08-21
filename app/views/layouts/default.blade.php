@@ -86,7 +86,7 @@
                     <div class="footer-title">Social Networks</div>
                     <ul class="list-inline socials">
                         <li><a href="https://www.facebook.com/wcutco"><span class="icon icon-socialmedia-08"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-07"></span></a></li>
+                        <li><a href="https://twitter.com/wwwcutco"><span class="icon icon-socialmedia-07"></span></a></li>
                         <li><a href="#"><span class="icon icon-socialmedia-16"></span></a></li>
                     </ul>
                 </div>
