@@ -1,6 +1,7 @@
 @extends('layouts.default')
 @section('content')
 
+
 <body id="register-page">
     <div id="hero" class="static-header light">
         <div class="text-heading">

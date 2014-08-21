@@ -13,6 +13,7 @@
 
 App::setLocale('en');
 
+
 // Home Page
 Route::get( '/', array(
 		'as' => 'wcuts.index',
